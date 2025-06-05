@@ -11,6 +11,6 @@ export class AppService {
   }
 
   getSaludoFrances(): string {
-    return 'Saludo en Frances: Bonjour!';
+    return 'Saludo en Frances: Bonjour tout le monde Perkin!';
   }
 }
