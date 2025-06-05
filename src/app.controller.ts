@@ -6,13 +6,19 @@ export class AppController {
   constructor(private readonly appService: AppService) {}
 
   @Get()
-  getHelloEspañol(): string {
-    return this.appService.getHelloEspañol();
+  getSaludoEspañol(): string {
+    return this.appService.getSaludoEspañol();
   }
 
-  //getHelloIngles
-  @Get('HelloIngles')
-   getHelloIngles(): string {
-    return this.appService.getHelloIngles();
+  //Saludo en Ingles
+  @Get('SaludoIngles')
+   getSaludoIngles(): string {
+    return this.appService.getSaludoIngles();
+  }
+
+  //Saludo en Frances
+  @Get('SaludoFrances')
+   getSaludoFrances(): string {
+    return this.appService.getSaludoFrances();
   }
 }

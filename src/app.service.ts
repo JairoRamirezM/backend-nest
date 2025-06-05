@@ -2,11 +2,15 @@ import { Injectable } from '@nestjs/common';
 
 @Injectable()
 export class AppService {
-  getHelloEspañol(): string {
-    return 'Hola Perkin!';
+  getSaludoEspañol(): string {
+    return 'Saludo en Español: Hola Perkin!';
   }
 
-  getHelloIngles(): string {
-    return 'Hello Perkin!';
+  getSaludoIngles(): string {
+    return 'Saludo en Ingles: Hello Perkin!';
+  }
+
+  getSaludoFrances(): string {
+    return 'Saludo en Frances: Bonjour Perkin!';
   }
 }
