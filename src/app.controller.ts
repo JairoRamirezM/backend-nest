@@ -21,4 +21,10 @@ export class AppController {
    getSaludoFrances(): string {
     return this.appService.getSaludoFrances();
   }
+
+    //Saludo en Peru
+  @Get('SaludoPeru')
+   getSaludoPeru(): string {
+    return this.appService.getSaludoPeru();
+  }
 }
